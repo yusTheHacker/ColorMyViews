@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setListener() {
 
-        var clickableViews: List<View> = listOf(box_one_text, box_two_text, box_three_text,
+        val clickableViews: List<View> = listOf(box_one_text, box_two_text, box_three_text,
                                                     box_four_text, box_five_text, constriant_layout,
                                                     red_button, green_button, yellow_button)
 
